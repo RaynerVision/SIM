@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - RS CryptoVision</title>
+    <style>
+        :root{--a:#0f172a;--b:#1a2035;--c:#fff;--d:#22c55e;--e:#3b82f6;--f:#2d3748}*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}body{background:var(--a);color:var(--c);display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}.g{background:var(--b);border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,.2);width:100%;max-width:400px;padding:30px}.h{text-align:center;margin-bottom:30px}.i{width:80px;height:80px;margin-bottom:15px}.j{font-size:1.8rem;font-weight:700;margin-bottom:5px}.k{color:#a0aec0;font-size:.9rem}.l{margin-bottom:20px}.l label{display:block;margin-bottom:8px;font-weight:500}.m{width:100%;padding:12px 15px;background:rgba(255,255,255,.05);border:1px solid var(--f);border-radius:5px;color:var(--c);font-size:1rem;transition:all .3s}.m:focus{outline:0;border-color:var(--e);box-shadow:0 0 0 3px rgba(59,130,246,.2)}.n{display:block;width:100%;padding:12px;border:0;border-radius:5px;font-weight:500;font-size:1rem;cursor:pointer;transition:background-color .2s}.o{background:var(--d);color:#fff}.o:hover{background:#16a34a}.p{background:var(--e);color:#fff;margin-top:10px}.p:hover{background:#2563eb}.q{text-align:center;margin-top:20px;color:#a0aec0;font-size:.9rem}.q a{color:var(--e);text-decoration:none}.q a:hover{text-decoration:underline}.r{display:flex;margin-bottom:20px;border-bottom:1px solid var(--f)}.s{flex:1;text-align:center;padding:10px;cursor:pointer;position:relative}.s.t{font-weight:500}.s.t::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:2px;background:var(--d)}.u{display:none}.u.t{display:block}.v{color:#ef4444;font-size:.9rem;margin-top:5px;display:none}
+    </style>
+</head>
+<body>
+    <div class="g">
+        <div class="h">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACG0lEQVR4nO3dMW7DIBCF4S8ogmZ9nZONf7DYfFrBQ6qM5FtZSR7y06e7KJAAAAAAAAAAAAAAAAAABcC9Hq+J5VyLl5rPp+ZmLOpvmXKM+M82Rldd6xPkyTJkqWu5ZK9ZM2X8p9qxKstZfrk1vlkVXYWcySPF1P+RKsq61n65Gb5bEWF+rKWu0rOW8s9ZD39lKV2Js/EjvprkpZXk6uQ1XUnk3OUVfpG+Wz6uQ1T8vZOSklv+6h5MkjTkVPpbPy1lkq19WT1YTbzRpS3l0/cfL0Xq+XJJw5O1JdU7hL/I8kZfTeUqfvyWu4ou/fSRpfznkkpXp8rhHnTkmPp8ihe+nyuFHfSyVHz5MEn55T+nKd+njG8zp7HZ1pXw5HnlHyWu4Ypvnkmt0Q6X1uXJU+UxfvSKO7GIekS8uXl1NZT/J7Wl5OTTX8np7Wl1u4YoeXz5NEnr5LI5E/kzKyblvpWT/LbWTPO0+b9mWM1ZXDYr81DLAAAAAAAAAAAAAAAAAADAcvgHnOE3TI75QWgAAAABJRU5ErkJggg==" alt="Logo" class="i">
+            <h1 class="j">CryptoVision</h1>
+            <p class="k">Sua plataforma de análise cripto</p>
+        </div>
+        
+        <div class="r">
+            <div class="s t" data-tab="a">Login</div>
+            <div class="s" data-tab="b">Cadastro</div>
+        </div>
+        
+        <div id="a-form" class="u t">
+            <form id="w">
+                <div class="l">
+                    <label for="x">E-mail</label>
+                    <input type="email" id="x" class="m" required>
+                    <div class="v" id="x-error"></div>
+                </div>
+                
+                <div class="l">
+                    <label for="y">Senha</label>
+                    <input type="password" id="y" class="m" required>
+                    <div class="v" id="y-error"></div>
+                </div>
+                
+                <button type="submit" class="n o">Entrar</button>
+                
+                <div class="q">
+                    <a href="recuperar-senha.html" id="z">Esqueceu sua senha?</a>
+                </div>
+            </form>
+        </div>
+        
+        <div id="b-form" class="u">
+            <form id="aa">
+                <div class="l">
+                    <label for="ab">Nome</label>
+                    <input type="text" id="ab" class="m" required>
+                    <div class="v" id="ab-error"></div>
+                </div>
+                
+                <div class="l">
+                    <label for="ac">E-mail</label>
+                    <input type="email" id="ac" class="m" required>
+                    <div class="v" id="ac-error"></div>
+                </div>
+                
+                <div class="l">
+                    <label for="ad">Senha</label>
+                    <input type="password" id="ad" class="m" required>
+                    <div class="v" id="ad-error"></div>
+                </div>
+                
+                <div class="l">
+                    <label for="ae">Confirmar Senha</label>
+                    <input type="password" id="ae" class="m" required>
+                    <div class="v" id="ae-error"></div>
+                </div>
+                
+                <button type="submit" class="n p">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        (function(){
+            // Configurações da API
+            const _0x1a2b=['https://','/api/auth','login','register','POST','Content-Type','application/json','email','password','name','newPassword','confirmPassword','/password/forgot','/password/reset','code','.v','textContent','display','block','value','trim','test','length','find','some','push','users','currentUser','app.html','click','submit','preventDefault','DOMContentLoaded','localStorage','parse','stringify','href','location','email','password','name','initials','isPremium','registrationDate','token','/api/auth/register','/api/auth/login','fetch','then','json','response','ok','message','error','catch','console','log','err','replace','replaceState','history','index.html','recuperar-senha.html','getItem','setItem','removeItem','includes','pathname','window'];const _0x4a7e=function(_0x1a2b3c,_0x4a7e1e){_0x1a2b3c=_0x1a2b3c-0x0;let _0x2e6f4a=_0x1a2b[_0x1a2b3c];return _0x2e6f4a;};
+            const API_BASE = _0x4a7e('0x0') + window[_0x4a7e('0x23')][_0x4a7e('0x22')] + _0x4a7e('0x1');
+            
+            // Funções principais
+            function _0x3b8a7f(_0x2a1e7b,_0x5e4f3a){const _0x5a8d3e=document[_0x4a7e('0x2')](_0x2a1e7b);_0x5a8d3e[_0x4a7e('0xf')]=_0x5e4f3a;_0x5a8d3e[_0x4a7e('0x10')][_0x4a7e('0x11')]=_0x4a7e('0x12');}
+            function _0x5d1c2a(){document[_0x4a7e('0xe')](_0x4a7e('0x13')).forEach(_0x2e7d3b=>{_0x2e7d3b[_0x4a7e('0x10')][_0x4a7e('0x11')]='none';});}
+            function _0x4e1c8f(_0x1e8b9a){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/[_0x4a7e('0x14')](_0x1e8b9a);}
+            function _0x1d5e3d(_0x5a0c4a){return _0x5a0c4a[_0x4a7e('0x15')]>=0x6;}
+            
+            // Login
+            document[_0x4a7e('0x2')]('w')['addEventListener'](_0x4a7e('0x1d'),async _0x5d1c2a=>{_0x5d1c2a[_0x4a7e('0x1c')]();_0x5d1c2a();const _0x3b8a7f=document[_0x4a7e('0x2')]('x')[_0x4a7e('0x16')][_0x4a7e('0x17')](),_0x4e1c8f=document[_0x4a7e('0x2')]('y')[_0x4a7e('0x16')];try{const _0x1d5e3d=await fetch(API_BASE+_0x4a7e('0x3'),{method:_0x4a7e('0x4'),headers:{[_0x4a7e('0x5')]:_0x4a7e('0x6')},body:JSON[_0x4a7e('0x21')]({[_0x4a7e('0x7')]:_0x3b8a7f,[_0x4a7e('0x8')]:_0x4e1c8f})});if(!_0x1d5e3d[_0x4a7e('0x1a')])throw new Error('Erro na requisição');const _0x2e6f4a=await _0x1d5e3d[_0x4a7e('0x1b')]();if(_0x1d5e3d[_0x4a7e('0x19')]){localStorage[_0x4a7e('0x20')](_0x4a7e('0x18'),_0x2e6f4a[_0x4a7e('0x24')]);window[_0x4a7e('0x23')][_0x4a7e('0x25')]=_0x4a7e('0x1a');}else _0x3b8a7f('y-error',_0x2e6f4a[_0x4a7e('0x1e')]||'Credenciais inválidas');}catch(_0x2a1e7b){_0x3b8a7f('y-error','Erro de conexão');console[_0x4a7e('0x1f')](_0x4a7e('0x26'),_0x2a1e7b);}});
+            
+            // Cadastro
+            document[_0x4a7e('0x2')]('aa')['addEventListener'](_0x4a7e('0x1d'),async _0x5d1c2a=>{_0x5d1c2a[_0x4a7e('0x1c')]();_0x5d1c2a();const _0x3b8a7f=document[_0x4a7e('0x2')]('ab')[_0x4a7e('0x16')][_0x4a7e('0x17')](),_0x4e1c8f=document[_0x4a7e('0x2')]('ac')[_0x4a7e('0x16')][_0x4a7e('0x17')](),_0x1d5e3d=document[_0x4a7e('0x2')]('ad')[_0x4a7e('0x16')],_0x2e6f4a=document[_0x4a7e('0x2')]('ae')[_0x4a7e('0x16')];try{const _0x5a8d3e=await fetch(API_BASE+_0x4a7e('0x27'),{method:_0x4a7e('0x4'),headers:{[_0x4a7e('0x5')]:_0x4a7e('0x6')},body:JSON[_0x4a7e('0x21')]({[_0x4a7e('0x9')]:_0x3b8a7f,[_0x4a7e('0x7')]:_0x4e1c8f,[_0x4a7e('0x8')]:_0x1d5e3d})});if(!_0x5a8d3e[_0x4a7e('0x1a')])throw new Error('Erro na requisição');const _0x2e7d3b=await _0x5a8d3e[_0x4a7e('0x1b')]();if(_0x5a8d3e[_0x4a7e('0x19')]){localStorage[_0x4a7e('0x20')](_0x4a7e('0x18'),_0x2e7d3b[_0x4a7e('0x24')]);window[_0x4a7e('0x23')][_0x4a7e('0x25')]=_0x4a7e('0x1a');}else _0x3b8a7f('ac-error',_0x2e7d3b[_0x4a7e('0x1e')]||'Erro no cadastro');}catch(_0x3a7b1f){_0x3b8a7f('ac-error','Erro de conexão');console[_0x4a7e('0x1f')](_0x4a7e('0x26'),_0x3a7b1f);}});
+            
+            // Tabs
+            document[_0x4a7e('0xe')]('.s').forEach(_0x2a1e7b=>{_0x2a1e7b[_0x4a7e('0x1d')](_0x3a7b1f=>{document[_0x4a7e('0xe')]('.s').forEach(_0x1b5b0e=>{_0x1b5b0e[_0x4a7e('0x28')][_0x4a7e('0x29')](_0x4a7e('0x2a'));});_0x3a7b1f[_0x4a7e('0x2b')][_0x4a7e('0x28')][_0x4a7e('0x2c')](_0x4a7e('0x2a'));const _0x5a0c4a=_0x3a7b1f[_0x4a7e('0x2b')][_0x4a7e('0x8')](_0x4a7e('0x2d'));document[_0x4a7e('0xe')]('.u').forEach(_0x1e8b9a=>{_0x1e8b9a[_0x4a7e('0x28')][_0x4a7e('0x29')](_0x4a7e('0x2a'));});document[_0x4a7e('0x2')](`${_0x5a0c4a}-form`)[_0x4a7e('0x28')][_0x4a7e('0x2c')](_0x4a7e('0x2a'));});});
+            
+            // Verificar autenticação
+            document[_0x4a7e('0x1d')](_0x4a7e('0x2e'),()=>{const _0x5d1c2a=localStorage[_0x4a7e('0x2f')](_0x4a7e('0x18'));_0x5d1c2a&&!window[_0x4a7e('0x23')][_0x4a7e('0x22')][_0x4a7e('0x30')](_0x4a7e('0x31'))&&(window[_0x4a7e('0x23')][_0x4a7e('0x25')]=_0x4a7e('0x1a'));});
+        })();
+    </script>
+</body>
+</html>
